@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ctc: {from: \"gnottero:gnotteros_industries\", traits: [\"item\", \"placeholder\", \"item/interactive_placeholder\"], id: \"interactive_slot_placeholder\"}, display: {Name: '{\"text\": \"Stored mb\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

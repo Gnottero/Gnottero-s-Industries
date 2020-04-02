@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Gnottero",
+        "description": "",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Name: \"Gnottero\", Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE1NzIyOTM4MzYyNDcsInByb2ZpbGVJZCI6IjNlNTEzODVmZjVhMjRhNWU5YzFhZWIzNmYyOTM3ODk3IiwicHJvZmlsZU5hbWUiOiJHbm90dGVybyIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YTQxYjgxM2VkNWZjODZjZjM0Nzg5Njc1Njk1MDI5NTFiYmI4ZTQ2YWE3MmZiNjJhMzRlNDAwYTM3NDcxZTVhIn19fQ==\"}]}}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

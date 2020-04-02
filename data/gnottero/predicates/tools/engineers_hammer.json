@@ -1,0 +1,32 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:player",
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:carrot_on_a_stick",
+              "nbt": "{ctc: {from: \"gnotteros_industries\", traits: [\"item\", \"tool/hammer\"], id: \"enginners_hammer\"}, Damage: 0, display: {Name: '{\"text\":\"Engineer\\'s Hammer\",\"italic\":false}'}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:player",
+          "equipment": {
+            "offhand": {
+              "item": "minecraft:carrot_on_a_stick",
+              "nbt": "{ctc: {from: \"gnotteros_industries\", traits: [\"item\", \"tool/hammer\"], id: \"enginners_hammer\"}, Damage: 0, display: {Name: '{\"text\":\"Engineer\\'s Hammer\",\"italic\":false}'}}"
+            }
+          },
+          "player": {}
+        }
+      }
+    ]
+  }

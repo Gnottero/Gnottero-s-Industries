@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Gnottero's Industries v1.0.0",
+        "description": [{
+            "text": "Gnottero's Industries by Gnottero"
+        }],
+        "icon": {
+            "item": "minecraft:blast_furnace"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "gnottero:gnottero",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
