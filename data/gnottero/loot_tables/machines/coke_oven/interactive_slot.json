@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{ctc: {from: \"gnottero:gnotteros_industries\", traits: [\"item\", \"placeholder\", \"item/interactive_placeholder\"], id: \"interactive_slot_placeholder\"}, display: {Name: '{\"text\": \"Stored mb\",\"italic\":false}'}}"
+                            "tag": "{ctc: {from: \"gnottero:gnotteros_industries\", traits: [\"item\", \"placeholder\", \"item/interactive_placeholder\"], id: \"interactive_slot_placeholder\"}, display: {Lore:['[{\"text\":\"Creosote: \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"/12000mb\",\"italic\":false,\"color\":\"gray\"}]'],Name: '{\"text\": \"Stored Creosote\",\"italic\":false}'}}"
                         }
                     ]
                 }

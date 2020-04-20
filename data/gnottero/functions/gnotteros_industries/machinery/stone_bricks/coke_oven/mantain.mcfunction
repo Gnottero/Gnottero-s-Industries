@@ -1,3 +1,3 @@
-# Merging entity's data , called by "gnottero:dev_gui/trait/experiece_extractor/main"
+# Setting the Fire tag to 2 each time if the structure is completed
 
-    data merge entity @s {Age: 0, Duration: 2}
+    data merge entity @s {Fire:2s}
