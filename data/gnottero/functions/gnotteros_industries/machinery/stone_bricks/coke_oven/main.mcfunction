@@ -8,3 +8,6 @@
 
     # If a UI component is missing then run the main function of the UI module
         execute if entity @s[predicate=!gnottero:machinery/coke_oven/matches_barrel] if block ~ ~ ~ barrel[open=true] run function gnottero:gnotteros_industries/machinery/stone_bricks/coke_oven/ui/main
+
+    # Running the main function of the functions folder
+        function gnottero:gnotteros_industries/machinery/stone_bricks/coke_oven/functions/main

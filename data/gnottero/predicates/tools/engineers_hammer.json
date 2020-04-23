@@ -9,7 +9,7 @@
           "equipment": {
             "mainhand": {
               "item": "minecraft:carrot_on_a_stick",
-              "nbt": "{ctc: {from: \"gnotteros_industries\", traits: [\"item\", \"tool/hammer\"], id: \"enginners_hammer\"}, Damage: 0, display: {Name: '{\"text\":\"Engineer\\'s Hammer\",\"italic\":false}'}}"
+              "nbt": "{ctc: {from: \"gnotteros_industries\", traits: [\"item\", \"tool/hammer\"], id: \"enginners_hammer\"}, Unbreakable:1b, display: {Name: '{\"text\":\"Engineer\\'s Hammer\",\"italic\":false}'}}"
             }
           }
         }
@@ -22,7 +22,7 @@
           "equipment": {
             "offhand": {
               "item": "minecraft:carrot_on_a_stick",
-              "nbt": "{ctc: {from: \"gnotteros_industries\", traits: [\"item\", \"tool/hammer\"], id: \"enginners_hammer\"}, Damage: 0, display: {Name: '{\"text\":\"Engineer\\'s Hammer\",\"italic\":false}'}}"
+              "nbt": "{ctc: {from: \"gnotteros_industries\", traits: [\"item\", \"tool/hammer\"], id: \"enginners_hammer\"}, Unbreakable:1b, display: {Name: '{\"text\":\"Engineer\\'s Hammer\",\"italic\":false}'}}"
             }
           },
           "player": {}
