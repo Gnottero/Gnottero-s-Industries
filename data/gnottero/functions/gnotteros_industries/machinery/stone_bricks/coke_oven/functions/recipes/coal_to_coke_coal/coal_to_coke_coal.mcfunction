@@ -3,14 +3,11 @@
 
     # Decrease the number of the coal inside by 1
         execute store result block ~ ~ ~ Items[{Slot:10b}].Count byte 1 run scoreboard players remove @s gn.get_num 1
-
+        
     # Adding some tags to the executor
         tag @s add gn.is_working
         tag @s add gn.scheduled
 
-    # Storing the actual gametime in the "gn.action_time" score, then adding the interval
-        execute store result score @s gn.action_time run time query gametime
-        scoreboard players operation @s gn.action_time += $interval gn.action_time
-
-    # Scheduling the "gnottero:dev_gui/trait/alloy_foundry/function/recipes/ancient_steel_ingot/result" running it in 20s
-        execute unless score @s gn.process_phase matches 6 run schedule function gnottero:gnotteros_industries/machinery/stone_bricks/coke_oven/functions/recipes/coal_to_coke_coal/process_phase 9s append
+    # Setting the 'gn.process_phase' to 1 and replacing the gui placeholder
+        scoreboard players set @s gn.process_phase 1
+        replaceitem block ~ ~ ~ container.0 black_stained_glass_pane{ctc: {from: "gnotteros_industries", traits: ["item", "placeholder", "item/gui_placeholder"], id: "gui_placeholder"}, CustomModelData: 1280001, display: {Name: '{"text":""}'}}
